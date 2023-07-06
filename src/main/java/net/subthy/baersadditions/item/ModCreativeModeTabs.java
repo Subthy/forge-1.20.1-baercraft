@@ -24,6 +24,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BaerCraft_Quests.get());
                         pOutput.accept(ModItems.BaerCraft_Tome.get());
                         pOutput.accept(ModItems.Trash_Panda_Craft_Tome.get());
+                        pOutput.accept(ModItems.Blood_Concentrate.get());
+                        pOutput.accept(ModItems.Death_Concentrate.get());
+                        pOutput.accept(ModItems.Fire_Concentrate.get());
+                        pOutput.accept(ModItems.Overworld_Concentrate.get());
+                        pOutput.accept(ModItems.Oxygen_Concentrate.get());
+                        pOutput.accept(ModItems.Oxytocin_Concentrate.get());
                     })
                     .build());
 

@@ -5,5 +5,12 @@
   "item.baersadditions.vial_bottle": "Vial Bottle",
   "item.baersadditions.baercraft_quests": "BaerCraft's Quest Book",
   "item.baersadditions.baercraft_tome": "BaerCraft's Tome",
-  "item.baersadditions.peoples_republic_tome": "People's Republic Tome"
+  "item.baersadditions.peoples_republic_tome": "People's Republic Tome",
+  "item.baersadditions.blood_concentrate": "Blood Concentrate",
+  "item.baersadditions.trash_panda_craft_tome": "Trash Panda Craft Tome",
+  "item.baersadditions.death_concentrate": "Death Concentrate",
+  "item.baersadditions.fire_concentrate": "Fire Concentrate",
+  "item.baersadditions.overworld_concentrate": "Overworld Concentrate",
+  "item.baersadditions.oxygen_concentrate": "Oxygen Concentrate",
+  "item.baersadditions.oxytocin_concentrate": "Oxytocin Concentrate"
 }
