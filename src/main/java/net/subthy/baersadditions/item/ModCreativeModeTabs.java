@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.Peoples_Republic_Tome.get());
                         pOutput.accept(ModItems.BaerCraft_Quests.get());
                         pOutput.accept(ModItems.BaerCraft_Tome.get());
+                        pOutput.accept(ModItems.Trash_Panda_Craft_Tome.get());
                     })
                     .build());
 

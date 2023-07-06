@@ -26,6 +26,9 @@ public class ModItems {
     public static final RegistryObject<Item> BaerCraft_Tome = ITEMS.register("baercraft_tome",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> Trash_Panda_Craft_Tome = ITEMS.register("trash_panda_craft_tome",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register((eventBus));
     }
