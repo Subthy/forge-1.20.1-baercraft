@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "baersadditions:platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "baersadditions:platinum_block"
+  }
+}

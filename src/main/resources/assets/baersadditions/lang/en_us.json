@@ -12,5 +12,7 @@
   "item.baersadditions.fire_concentrate": "Fire Concentrate",
   "item.baersadditions.overworld_concentrate": "Overworld Concentrate",
   "item.baersadditions.oxygen_concentrate": "Oxygen Concentrate",
-  "item.baersadditions.oxytocin_concentrate": "Oxytocin Concentrate"
+  "item.baersadditions.oxytocin_concentrate": "Oxytocin Concentrate",
+  "block.baersadditions.platinum_block": "Platinum Block",
+  "block.baersadditions.platinum_ore": "Platinum Ore"
 }

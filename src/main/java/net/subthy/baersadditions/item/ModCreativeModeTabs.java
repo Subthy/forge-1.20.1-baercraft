@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.subthy.baersadditions.BaersAdditions;
+import net.subthy.baersadditions.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CEATIVE_MOD_TABS =
@@ -30,6 +31,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.Overworld_Concentrate.get());
                         pOutput.accept(ModItems.Oxygen_Concentrate.get());
                         pOutput.accept(ModItems.Oxytocin_Concentrate.get());
+
+                        pOutput.accept(ModBlocks.Platinum_Block.get());
+                        pOutput.accept(ModBlocks.Platinum_Ore.get());
                     })
                     .build());
 

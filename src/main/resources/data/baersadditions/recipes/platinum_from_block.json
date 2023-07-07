@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "baersadditions:platinum_block"
+    }
+  ],
+  "result": {
+    "item": "baersadditions:platinum_ingot",
+    "count": 9
+  }
+}
