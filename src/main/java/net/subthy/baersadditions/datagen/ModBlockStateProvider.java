@@ -19,6 +19,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         //Add simple blocks here
         blockWithItem(ModBlocks.Platinum_Block);
         blockWithItem(ModBlocks.Platinum_Ore);
+        blockWithItem(ModBlocks.Deepslate_Platinum_Ore);
+        blockWithItem(ModBlocks.Raw_Platinum_Block);
         // Flower
         simpleBlock(ModBlocks.Lavender.get(),
                 models().cross(blockTexture(ModBlocks.Lavender.get()).getPath(), blockTexture(ModBlocks.Lavender.get())).renderType("cutout"));

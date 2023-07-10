@@ -20,6 +20,9 @@ public class ModItems {
     // Added items
     public static final RegistryObject<Item> Platinum_Ingot = ITEMS.register("platinum_ingot",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Raw_Platinum = ITEMS.register("raw_platinum",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Platinum_Nugget = ITEMS.register("platinum_nugget",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Peoples_Republic_Tome = ITEMS.register("peoples_republic_tome",

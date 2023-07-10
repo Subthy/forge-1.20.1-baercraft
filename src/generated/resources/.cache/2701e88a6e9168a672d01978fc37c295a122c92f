@@ -1,9 +1,15 @@
-// 1.20.1	2023-07-09T02:19:34.5203398	Block States: baersadditions
+// 1.20.1	2023-07-10T00:51:50.6284363	Block States: baersadditions
+c31c381610a499f58fe6a81fca6213a11c737a59 assets/baersadditions/blockstates/deepslate_platinum_ore.json
 207e55a663eac72379e8f68eceabbb1396dda688 assets/baersadditions/blockstates/lavender.json
 265b95ed3a4636e894a6bdfa8de6015899d8c6e4 assets/baersadditions/blockstates/platinum_block.json
 5f7d6c32252e81e498b7df61c2d676995ff0c55e assets/baersadditions/blockstates/platinum_ore.json
+d6c864e7923bde0e3f3e07bcda204426a065ccdf assets/baersadditions/blockstates/raw_platinum_block.json
+ffdc3d6d9ea49b6729c880531246a63e5673ec0e assets/baersadditions/models/block/deepslate_platinum_ore.json
 52fdd8687c8e25feb109347b56c40c83a0a1cf0b assets/baersadditions/models/block/lavender.json
 4251e1112d1723a10109d478ecbd46130b04cbb2 assets/baersadditions/models/block/platinum_block.json
 265af5a1ef3231fb41462bff5d96c8110184794f assets/baersadditions/models/block/platinum_ore.json
+a30a57d27e565cabbf3f3acf394cac56500db741 assets/baersadditions/models/block/raw_platinum_block.json
+9b3b9100bdde5da8bd5c29aec69bb18bcaddf22a assets/baersadditions/models/item/deepslate_platinum_ore.json
 85958e8ee66130007caef9d210ebc14e9c88f870 assets/baersadditions/models/item/platinum_block.json
 8438e404ff2bd08b3faab4e10f88f91a63ce9939 assets/baersadditions/models/item/platinum_ore.json
+519e7a706a3f60b0b7cc56bbc9d59886a76a6997 assets/baersadditions/models/item/raw_platinum_block.json

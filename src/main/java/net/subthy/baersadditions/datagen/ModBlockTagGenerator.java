@@ -23,7 +23,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         // Add Block Tags here
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.Platinum_Block.get(), ModBlocks.Platinum_Ore.get());
+                .add(ModBlocks.Platinum_Block.get(), ModBlocks.Platinum_Ore.get(), ModBlocks.Deepslate_Platinum_Ore.get(), ModBlocks.Raw_Platinum_Block.get());
     }
 
     @Override

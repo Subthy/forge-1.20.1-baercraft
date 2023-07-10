@@ -13,9 +13,12 @@
   "item.baersadditions.oxygen_concentrate": "Oxygen Concentrate",
   "item.baersadditions.oxytocin_concentrate": "Oxytocin Concentrate",
   "item.baersadditions.experience_concentrate": "Experience Concentrate",
+  "item.baersadditions.raw_platinum": "Raw Platinum",
 
   "block.baersadditions.platinum_block": "Platinum Block",
   "block.baersadditions.platinum_ore": "Platinum Ore",
+  "block.baersadditions.raw_platinum_block": "Raw Platinum Block",
+  "block.baersadditions.deepslate_platinum_ore": " Deepslate Platinum Ore",
   "block.baersadditions.lavender": "Lavender",
 
   "tooltip.baersadditions.vial_bottle.tooltip": "§oJust an empty vile",

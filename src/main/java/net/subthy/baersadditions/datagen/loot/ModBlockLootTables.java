@@ -18,10 +18,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         // These Blocks drop themselves
         this.dropSelf(ModBlocks.Platinum_Block.get());
+        this.dropSelf(ModBlocks.Raw_Platinum_Block.get());
         this.dropSelf(ModBlocks.Lavender.get());
         // These Blocks drop Items
         this.add(ModBlocks.Platinum_Ore.get(),
-                block -> createOreDrop(ModBlocks.Platinum_Ore.get(), ModItems.Platinum_Ingot.get()));
+                block -> createOreDrop(ModBlocks.Platinum_Ore.get(), ModItems.Raw_Platinum.get()));
+        this.add(ModBlocks.Deepslate_Platinum_Ore.get(),
+                block -> createOreDrop(ModBlocks.Deepslate_Platinum_Ore.get(), ModItems.Raw_Platinum.get()));
         this.add(ModBlocks.Potted_Lavender.get(),
                 createPotFlowerItemTable(ModBlocks.Lavender.get()));
     }

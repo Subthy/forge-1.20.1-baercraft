@@ -23,7 +23,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> Platinum_Block = registerBlock("platinum_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
                     .requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> Raw_Platinum_Block = registerBlock("raw_platinum_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+                    .requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> Platinum_Ore = registerBlock("platinum_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+                    .requiresCorrectToolForDrops(), UniformInt.of(2,5)));
+
+    public static final RegistryObject<Block> Deepslate_Platinum_Ore = registerBlock("deepslate_platinum_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(2,5)));
 
