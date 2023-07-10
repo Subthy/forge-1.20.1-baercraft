@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "baersadditions:item/rainbow_road_record"
+    "layer0": "baersadditions:item/rainbow_road"
   }
 }

@@ -22,7 +22,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         // Add Item tags here
         this.tag(ItemTags.MUSIC_DISCS)
-                .add(ModItems.Rainbow_Road_Record.get());
+                .add(ModItems.Rainbow_Road.get());
     }
 
     @Override

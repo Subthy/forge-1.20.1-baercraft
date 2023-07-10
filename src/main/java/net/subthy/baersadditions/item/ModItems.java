@@ -66,7 +66,7 @@ public class ModItems {
     public static final RegistryObject<Item> Experience_Concentrate = ITEMS.register("experience_concentrate",
             () -> new ExperienceConcentrate(new Item.Properties().food((ModFoods.Experience_Concentrate))));
 
-    public static final RegistryObject<Item> Rainbow_Road_Record = ITEMS.register("rainbow_road_record",
+    public static final RegistryObject<Item> Rainbow_Road = ITEMS.register("rainbow_road",
             () -> new RecordItem(4, ModSounds.Rainbow_Road, new Item.Properties().stacksTo(1),1760));
 
 

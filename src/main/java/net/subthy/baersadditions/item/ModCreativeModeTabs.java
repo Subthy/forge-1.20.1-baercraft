@@ -34,7 +34,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.Experience_Concentrate.get());
                         pOutput.accept(ModItems.Trash_Panda_Craft_Tome.get());
                         pOutput.accept(ModItems.Raw_Platinum.get());
-                        pOutput.accept(ModItems.Rainbow_Road_Record.get());
+                        pOutput.accept(ModItems.Rainbow_Road.get());
 
                         pOutput.accept(ModBlocks.Platinum_Block.get());
                         pOutput.accept(ModBlocks.Platinum_Ore.get());

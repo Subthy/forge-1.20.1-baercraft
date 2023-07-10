@@ -37,7 +37,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.Peoples_Republic_Tome);
         simpleItem(ModItems.Vial_Bottle);
         simpleItem(ModItems.Raw_Platinum);
-        simpleItem(ModItems.Rainbow_Road_Record);
+        simpleItem(ModItems.Rainbow_Road);
         simpleBlockItem(ModBlocks.Lavender);
     }
 
