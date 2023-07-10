@@ -2,7 +2,7 @@
   "rainbow_road": {
     "sounds": [
       {
-        "name": "baersadditions:rainbow_road_record",
+        "name": "baersadditions:rainbow_road",
         "stream": true
       }
     ]
