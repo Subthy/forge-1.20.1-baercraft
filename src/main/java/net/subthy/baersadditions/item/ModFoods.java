@@ -31,6 +31,8 @@ public class ModFoods {
     public static final FoodProperties Oxytocin_Concentrate = (new FoodProperties.Builder()).nutrition(1).saturationMod(0.1F)
             .effect(new MobEffectInstance(MobEffects.ABSORPTION, 6000, 2), 1.0F).alwaysEat().fast().build();
 
+    public static final FoodProperties Experience_Concentrate = (new FoodProperties.Builder()).nutrition(1).saturationMod(0.1F)
+            .alwaysEat().fast().build();
 
 
 }

@@ -1,11 +1,17 @@
 package net.subthy.baersadditions.item;
 
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.subthy.baersadditions.BaersAdditions;
+import net.subthy.baersadditions.item.custom.ExperienceConcentrate;
+import net.subthy.baersadditions.item.custom.Vial_Bottle;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -16,22 +22,26 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Platinum_Nugget = ITEMS.register("platinum_nugget",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> Vial_Bottle = ITEMS.register("vial_bottle",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Peoples_Republic_Tome = ITEMS.register("peoples_republic_tome",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Vial_Bottle = ITEMS.register("vial_bottle",
+            () -> new Vial_Bottle(new Item.Properties()));
 
+    public static final RegistryObject<Item> Lavender_Flower = ITEMS.register("lavender_item",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BaerCraft_Quests = ITEMS.register("baercraft_quests",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> BaerCraft_Tome = ITEMS.register("baercraft_tome",
             () -> new Item(new Item.Properties()));
 
+
     public static final RegistryObject<Item> Trash_Panda_Craft_Tome = ITEMS.register("trash_panda_craft_tome",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> Blood_Concentrate = ITEMS.register("blood_concentrate",
             () -> new Item(new Item.Properties().food(ModFoods.Blood_Concentrate)));
+
 
     public static final RegistryObject<Item> Death_Concentrate = ITEMS.register("death_concentrate",
             () -> new Item(new Item.Properties().food(ModFoods.Death_Concentrate)));
@@ -47,6 +57,14 @@ public class ModItems {
 
     public static final RegistryObject<Item> Oxytocin_Concentrate = ITEMS.register("oxytocin_concentrate",
             () -> new Item(new Item.Properties().food(ModFoods.Oxytocin_Concentrate)));
+
+    public static final RegistryObject<Item> Experience_Concentrate = ITEMS.register("experience_concentrate",
+            () -> new ExperienceConcentrate(new Item.Properties().food((ModFoods.Experience_Concentrate))));
+
+
+
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register((eventBus));

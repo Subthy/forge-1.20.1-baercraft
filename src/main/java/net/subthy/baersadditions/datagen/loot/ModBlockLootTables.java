@@ -1,0 +1,32 @@
+package net.subthy.baersadditions.datagen.loot;
+
+import net.minecraft.data.loot.BlockLootSubProvider;
+import net.minecraft.world.flag.FeatureFlags;
+import net.minecraft.world.level.block.Block;
+import net.minecraftforge.registries.RegistryObject;
+import net.subthy.baersadditions.block.ModBlocks;
+import net.subthy.baersadditions.item.ModItems;
+
+import java.util.Set;
+
+public class ModBlockLootTables extends BlockLootSubProvider {
+    public ModBlockLootTables() {
+        super(Set.of(), FeatureFlags.REGISTRY.allFlags());
+    }
+
+    @Override
+    protected void generate() {
+        // These Blocks drop themselves
+        this.dropSelf(ModBlocks.Platinum_Block.get());
+        this.dropSelf(ModBlocks.Lavender.get());
+        // These Blocks drop Items
+        this.add(ModBlocks.Platinum_Ore.get(),
+                block -> createOreDrop(ModBlocks.Platinum_Ore.get(), ModItems.Platinum_Ingot.get()));
+        this.add(ModBlocks.Potted_Lavender.get(),
+                createPotFlowerItemTable(ModBlocks.Lavender.get()));
+    }
+    @Override
+    protected Iterable<Block> getKnownBlocks() {
+        return ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
+    }
+}

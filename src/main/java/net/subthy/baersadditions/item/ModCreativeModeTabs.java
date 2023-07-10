@@ -20,7 +20,6 @@ public class ModCreativeModeTabs {
                     .displayItems((pParamiters, pOutput) -> {
                         pOutput.accept(ModItems.Platinum_Ingot.get());
                         pOutput.accept(ModItems.Platinum_Nugget.get());
-                        pOutput.accept(ModItems.Vial_Bottle.get());
                         pOutput.accept(ModItems.Peoples_Republic_Tome.get());
                         pOutput.accept(ModItems.BaerCraft_Quests.get());
                         pOutput.accept(ModItems.BaerCraft_Tome.get());
@@ -31,9 +30,13 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.Overworld_Concentrate.get());
                         pOutput.accept(ModItems.Oxygen_Concentrate.get());
                         pOutput.accept(ModItems.Oxytocin_Concentrate.get());
+                        pOutput.accept(ModItems.Vial_Bottle.get());
+                        pOutput.accept(ModItems.Experience_Concentrate.get());
+                        pOutput.accept(ModItems.Trash_Panda_Craft_Tome.get());
 
                         pOutput.accept(ModBlocks.Platinum_Block.get());
                         pOutput.accept(ModBlocks.Platinum_Ore.get());
+                        pOutput.accept(ModBlocks.Lavender.get());
                     })
                     .build());
 

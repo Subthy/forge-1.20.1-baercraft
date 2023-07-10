@@ -1,7 +1,6 @@
 {
   "item.baersadditions.platinum_ingot": "Platinum Ingot",
   "item.baersadditions.platinum_nugget": "Platinum Nugget",
-  "creativetab.baersadditions_tab": "Baer's Additions",
   "item.baersadditions.vial_bottle": "Vial Bottle",
   "item.baersadditions.baercraft_quests": "BaerCraft's Quest Book",
   "item.baersadditions.baercraft_tome": "BaerCraft's Tome",
@@ -13,6 +12,14 @@
   "item.baersadditions.overworld_concentrate": "Overworld Concentrate",
   "item.baersadditions.oxygen_concentrate": "Oxygen Concentrate",
   "item.baersadditions.oxytocin_concentrate": "Oxytocin Concentrate",
+  "item.baersadditions.experience_concentrate": "Experience Concentrate",
+
   "block.baersadditions.platinum_block": "Platinum Block",
-  "block.baersadditions.platinum_ore": "Platinum Ore"
+  "block.baersadditions.platinum_ore": "Platinum Ore",
+  "block.baersadditions.lavender": "Lavender",
+
+  "tooltip.baersadditions.vial_bottle.tooltip": "§oJust an empty vile",
+  "tooltip.baersadditions.experience_bottle.tooltip": "§oExperience concentrate is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds and plaque asylums.",
+
+  "creativetab.baersadditions_tab": "Baer's Additions"
 }
