@@ -25,7 +25,7 @@ public class ModPlacedFeatures {
         register(context, Lavender_Placed_Key, configuredFeature.getOrThrow(ModConfiguredFeatures.Lavender_Key),
                 List.of(RarityFilter.onAverageOnceEvery(16), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
         register(context, Platinum_Ore_Placed_Key, configuredFeature.getOrThrow(ModConfiguredFeatures.Overworld_Platinum_Ore_Key),
-                ModOrePlacement.commonOrePlacement(12,
+                ModOrePlacement.commonOrePlacement(3,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(0))));
     }
 

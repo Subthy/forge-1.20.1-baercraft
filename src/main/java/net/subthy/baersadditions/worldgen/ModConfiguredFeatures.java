@@ -36,7 +36,7 @@ public class ModConfiguredFeatures {
                 ModBlocks.Platinum_Ore.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceabeles, ModBlocks.Deepslate_Platinum_Ore.get().defaultBlockState()));
 
-        register(context, Overworld_Platinum_Ore_Key, Feature.ORE, new OreConfiguration(overworldPlatinumOres, 20));
+        register(context, Overworld_Platinum_Ore_Key, Feature.ORE, new OreConfiguration(overworldPlatinumOres, 4));
 
         //Flowers
         register(context, Lavender_Key, Feature.FLOWER,

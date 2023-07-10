@@ -3,6 +3,7 @@ package net.subthy.baersadditions.item;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.RecordItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -12,6 +13,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.subthy.baersadditions.BaersAdditions;
 import net.subthy.baersadditions.item.custom.ExperienceConcentrate;
 import net.subthy.baersadditions.item.custom.Vial_Bottle;
+import net.subthy.baersadditions.sound.ModSounds;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -63,6 +65,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> Experience_Concentrate = ITEMS.register("experience_concentrate",
             () -> new ExperienceConcentrate(new Item.Properties().food((ModFoods.Experience_Concentrate))));
+
+    public static final RegistryObject<Item> Rainbow_Road_Record = ITEMS.register("rainbow_road_record",
+            () -> new RecordItem(4, ModSounds.Rainbow_Road, new Item.Properties().stacksTo(1),1760));
 
 
 

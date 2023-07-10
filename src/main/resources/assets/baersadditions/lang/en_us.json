@@ -21,6 +21,9 @@
   "block.baersadditions.deepslate_platinum_ore": " Deepslate Platinum Ore",
   "block.baersadditions.lavender": "Lavender",
 
+  "item.baersadditions.rainbow_road_record": "Rainbow Road",
+  "item.baersadditions.rainbow-road_record.desc": "Antibang - Rainbow Road",
+
   "tooltip.baersadditions.vial_bottle.tooltip": "§oJust an empty vile",
   "tooltip.baersadditions.experience_bottle.tooltip": "§oExperience concentrate is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds and plaque asylums.",
 

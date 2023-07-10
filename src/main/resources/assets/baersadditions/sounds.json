@@ -1,0 +1,10 @@
+{
+  "rainbow_road": {
+    "sounds": [
+      {
+        "name": "baersadditions:rainbow_road_record",
+        "stream": true
+      }
+    ]
+  }
+}

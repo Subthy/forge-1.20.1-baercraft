@@ -17,6 +17,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.subthy.baersadditions.block.ModBlocks;
 import net.subthy.baersadditions.item.ModCreativeModeTabs;
 import net.subthy.baersadditions.item.ModItems;
+import net.subthy.baersadditions.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -33,6 +34,7 @@ public class BaersAdditions {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
