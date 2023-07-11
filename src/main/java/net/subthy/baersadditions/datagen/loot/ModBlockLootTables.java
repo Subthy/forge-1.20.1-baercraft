@@ -26,7 +26,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.Deepslate_Platinum_Ore.get(),
                 block -> createOreDrop(ModBlocks.Deepslate_Platinum_Ore.get(), ModItems.Raw_Platinum.get()));
         this.add(ModBlocks.Potted_Lavender.get(),
-                createPotFlowerItemTable(ModBlocks.Lavender.get()));
+                createPotFlowerItemTable(ModBlocks.Potted_Lavender.get()));
     }
     @Override
     protected Iterable<Block> getKnownBlocks() {

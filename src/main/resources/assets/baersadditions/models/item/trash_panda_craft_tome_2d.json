@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "baersadditions:item/trash_panda_craft_tome_2d"
+  }
+}

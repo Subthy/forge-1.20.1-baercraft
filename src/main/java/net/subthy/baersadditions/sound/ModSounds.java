@@ -9,17 +9,17 @@ import net.minecraftforge.registries.RegistryObject;
 import net.subthy.baersadditions.BaersAdditions;
 
 public class ModSounds {
-    public static final DeferredRegister<SoundEvent> Sound_Event =
+    public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, BaersAdditions.MOD_ID);
 
     public static final RegistryObject<SoundEvent> Rainbow_Road = registerSoundEvents("rainbow_road");
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         ResourceLocation id = new ResourceLocation(BaersAdditions.MOD_ID, name);
-        return Sound_Event.register(name, () -> SoundEvent.createVariableRangeEvent(id));
+        return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(id));
     }
 
     public static void register(IEventBus eventBus) {
-        Sound_Event.register(eventBus);
+        SOUND_EVENTS.register(eventBus);
     }
 }
