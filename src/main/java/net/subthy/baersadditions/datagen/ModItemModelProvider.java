@@ -8,6 +8,7 @@ import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.network.NetworkEvent;
@@ -36,6 +37,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.Oxytocin_Concentrate);
         simpleItem(ModItems.Peoples_Republic_Tome);
         simpleItem(ModItems.Vial_Bottle);
+        simpleItem(ModItems.Nether_Concentrate);
         simpleItem(ModItems.Raw_Platinum);
         simpleItem(ModItems.Rainbow_Road);
         simpleBlockItem(ModBlocks.Lavender);

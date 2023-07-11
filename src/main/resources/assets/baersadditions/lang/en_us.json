@@ -18,14 +18,21 @@
   "block.baersadditions.platinum_block": "Platinum Block",
   "block.baersadditions.platinum_ore": "Platinum Ore",
   "block.baersadditions.raw_platinum_block": "Raw Platinum Block",
-  "block.baersadditions.deepslate_platinum_ore": " Deepslate Platinum Ore",
+  "block.baersadditions.deepslate_platinum_ore": "Deepslate Platinum Ore",
   "block.baersadditions.lavender": "Lavender",
 
   "item.baersadditions.rainbow_road": "Rainbow Road",
-  "item.baersadditions.rainbow-road.desc": "Antibang - Rainbow Road",
+  "item.baersadditions.rainbow-road.desc":"Antibang - Rainbow Road",
 
   "tooltip.baersadditions.vial_bottle.tooltip": "§oJust an empty vile",
   "tooltip.baersadditions.experience_bottle.tooltip": "§oExperience concentrate is a concentrated form of experience that cannot be made, but only found. Currently, the only known location are strongholds and plaque asylums.",
+  "tooltip.baersadditions.blood_bottle.tooltip": "§4§oNot recommended to ingest.",
+  "tooltip.baersadditions.death_bottle.tooltip": "§4§oNot recommended to ingest.",
+  "tooltip.baersadditions.fire_bottle.tooltip": "§4§oSpicy.",
+  "tooltip.baersadditions.nether_bottle.tooltip": "§oNether concentrate is an extremely potent, deadly concentrate derived from all things Nether. It's so deadly that it is no longer made and has only been rarely spotted in Nether cities. Some say killing the Wither also offers a chance of obtaining it.§4§o Not recommended to ingest. Highly toxic.",
+  "tooltip.baersadditions.overworld_bottle.tooltip": "§oOverworld concentrate is the purest concentrate of them all, harvesting all power from the Overworld. While it's currently unknown how to create it, it can be found rarely in the Thornborn Towers.",
+  "tooltip.baersadditions.oxygen_bottle.tooltip": "§oOxygen concentrate has only been found in one place. Your best chance of getting this concentrate is by defeating sea serpents.This can be quite difficult to obtain considering sea serpents only appear in deep oceans, including the deep frozen ocean, deep cold ocean, and so on.",
+  "tooltip.baersadditions.oxytocin_bottle.tooltip": "§oOxytocin is a hormone that our bodies produce. It's also known as the love hormone. It can help us bond with loved ones. Oxytocin concentrate currently has no recipe, but it can, however, be found in places like Foundries, Nether cities, and more.",
 
   "creativetab.baersadditions_tab": "Baer's Additions"
 }

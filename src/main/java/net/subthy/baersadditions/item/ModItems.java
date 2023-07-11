@@ -11,8 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.subthy.baersadditions.BaersAdditions;
-import net.subthy.baersadditions.item.custom.ExperienceConcentrate;
-import net.subthy.baersadditions.item.custom.Vial_Bottle;
+import net.subthy.baersadditions.item.custom.*;
 import net.subthy.baersadditions.sound.ModSounds;
 
 public class ModItems {
@@ -45,23 +44,26 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> Blood_Concentrate = ITEMS.register("blood_concentrate",
-            () -> new Item(new Item.Properties().food(ModFoods.Blood_Concentrate)));
+            () -> new BloodConcentrate(new Item.Properties().food(ModFoods.Blood_Concentrate)));
 
 
     public static final RegistryObject<Item> Death_Concentrate = ITEMS.register("death_concentrate",
-            () -> new Item(new Item.Properties().food(ModFoods.Death_Concentrate)));
+            () -> new DeathConcentrate(new Item.Properties().food(ModFoods.Death_Concentrate)));
 
     public static final RegistryObject<Item> Fire_Concentrate = ITEMS.register("fire_concentrate",
-            () -> new Item(new Item.Properties().food(ModFoods.Fire_Concentrate)));
+            () -> new FireConcentrate(new Item.Properties().food(ModFoods.Fire_Concentrate)));
 
     public static final RegistryObject<Item> Overworld_Concentrate = ITEMS.register("overworld_concentrate",
-            () -> new Item(new Item.Properties().food(ModFoods.Overworld_Concentrate)));
+            () -> new OverworldConcentrate(new Item.Properties().food(ModFoods.Overworld_Concentrate)));
 
     public static final RegistryObject<Item> Oxygen_Concentrate = ITEMS.register("oxygen_concentrate",
-            () -> new Item(new Item.Properties().food(ModFoods.Oxygen_Concentrate)));
+            () -> new OxygenConcentrate(new Item.Properties().food(ModFoods.Oxygen_Concentrate)));
 
     public static final RegistryObject<Item> Oxytocin_Concentrate = ITEMS.register("oxytocin_concentrate",
-            () -> new Item(new Item.Properties().food(ModFoods.Oxytocin_Concentrate)));
+            () -> new OxytocinConcentrate(new  Item.Properties().food(ModFoods.Oxytocin_Concentrate)));
+
+    public static final RegistryObject<Item> Nether_Concentrate = ITEMS.register("nether_concentrate",
+            () -> new NetherConcentrate(new Item.Properties().food(ModFoods.Nether_Concentrate)));
 
     public static final RegistryObject<Item> Experience_Concentrate = ITEMS.register("experience_concentrate",
             () -> new ExperienceConcentrate(new Item.Properties().food((ModFoods.Experience_Concentrate))));

@@ -19,6 +19,14 @@ public class ModFoods {
             .effect(new MobEffectInstance(MobEffects.WITHER, 800, 1), 1.0F)
             .effect(new MobEffectInstance(MobEffects.POISON, 400, 1), 1.0F).alwaysEat().fast().build());
 
+    public static final FoodProperties Nether_Concentrate = (new FoodProperties.Builder().nutrition(1).saturationMod(0.1F)
+            .effect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 6000, 1), 1.0F)
+            .effect(new MobEffectInstance(MobEffects.HUNGER, 6000, 1), 1.0F)
+            .effect(new MobEffectInstance(MobEffects.WEAKNESS, 7200, 5), 1.0F)
+            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 6000, 1), 1.0F)
+            .effect(new MobEffectInstance(MobEffects.WITHER, 6000, 1), 1.0F)
+            .effect(new MobEffectInstance(MobEffects.POISON, 12000, 1), 1.0F).alwaysEat().fast().build());
+
     public static final FoodProperties Fire_Concentrate = (new FoodProperties.Builder()).nutrition(1).saturationMod(0.1F)
             .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2400, 1), 1.0F).alwaysEat().fast().build();
 
