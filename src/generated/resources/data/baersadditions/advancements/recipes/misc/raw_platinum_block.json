@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_platinum_block": {
+    "has_platinum": {
       "conditions": {
         "items": [
           {
             "items": [
-              "baersadditions:raw_platinum_block"
+              "baersadditions:raw_platinum"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "baersadditions:platinum_ingot"
+        "recipe": "baersadditions:raw_platinum_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_platinum_block",
+      "has_platinum",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "baersadditions:platinum_ingot"
+      "baersadditions:raw_platinum_block"
     ]
   },
   "sends_telemetry_event": false

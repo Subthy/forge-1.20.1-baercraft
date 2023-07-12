@@ -17,7 +17,9 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
-    private static final List<ItemLike> Platinum_Smeltables = List.of(ModBlocks.Platinum_Ore.get());
+    private static final List<ItemLike> Platinum_Smeltables = List.of(
+            ModBlocks.Platinum_Ore.get(),
+            ModItems.Raw_Platinum.get());
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
     }
@@ -30,6 +32,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("AAA")
                 .define('A', ModItems.Platinum_Ingot.get())
                 .unlockedBy("has_platinum", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.Platinum_Ingot.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.Raw_Platinum_Block.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.Raw_Platinum.get())
+                .unlockedBy("has_platinum", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.Raw_Platinum.get()).build()))
+                .save(pWriter);
+
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Raw_Platinum.get(), 9)
+                .requires(ModBlocks.Raw_Platinum_Block.get())
+                .unlockedBy("has_platinum_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.Raw_Platinum_Block.get()).build()))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Platinum_Ingot.get(), 9)
