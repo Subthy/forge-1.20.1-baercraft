@@ -3,6 +3,7 @@ package net.subthy.baersadditions.datagen;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -17,9 +18,11 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
+    // Add items to be smelted to get platinum ingot
     private static final List<ItemLike> Platinum_Smeltables = List.of(
             ModBlocks.Platinum_Ore.get(),
-            ModItems.Raw_Platinum.get());
+            ModItems.Raw_Platinum.get(),
+            ModBlocks.Deepslate_Platinum_Ore.get());
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
     }
@@ -46,8 +49,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Raw_Platinum.get(), 9)
                 .requires(ModBlocks.Raw_Platinum_Block.get())
-                .unlockedBy("has_platinum_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.Raw_Platinum_Block.get()).build()))
+                .unlockedBy("has_raw_platinum", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.Raw_Platinum_Block.get()).build()))
                 .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Platinum_Ingot.get())
+                .requires(ModItems.Platinum_Nugget.get(),9)
+                .unlockedBy("has_platinum_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.Raw_Platinum_Block.get()).build()))
+                .save(pWriter, new ResourceLocation(BaersAdditions.MOD_ID, "platinum_ingots_from_nuggets"));
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Platinum_Nugget.get(),9)
+                .requires(ModItems.Platinum_Ingot.get())
+                .unlockedBy("has_platinum_nugget", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.Raw_Platinum_Block.get()).build()))
+                .save(pWriter, new ResourceLocation(BaersAdditions.MOD_ID, "platinum_nuggets_from_ingot"));
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Platinum_Ingot.get(), 9)
                 .requires(ModBlocks.Platinum_Block.get())
