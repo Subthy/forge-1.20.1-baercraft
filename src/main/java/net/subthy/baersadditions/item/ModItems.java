@@ -72,7 +72,7 @@ public class ModItems {
             () -> new RecordItem(4, ModSounds.Rainbow_Road, new Item.Properties().stacksTo(1),1760));
 
     public static final RegistryObject<Item> Arrow_Test = ITEMS.register("arrow_test",
-            () -> new TestArrow(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
 
 
 
