@@ -1,4 +1,4 @@
-package net.subthy.baersadditions.item.entity;
+package net.subthy.baersadditions.entity.custom;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
