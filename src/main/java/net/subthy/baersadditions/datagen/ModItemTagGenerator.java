@@ -23,6 +23,8 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         // Add Item tags here
         this.tag(ItemTags.MUSIC_DISCS)
                 .add(ModItems.Rainbow_Road.get());
+        this.tag(ItemTags.ARROWS)
+                .add(ModItems.Arrow_Test.get());
 
     }
 

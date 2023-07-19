@@ -41,6 +41,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.Raw_Platinum);
         simpleItem(ModItems.Rainbow_Road);
         simpleBlockItem(ModBlocks.Lavender);
+        simpleItem(ModItems.Arrow_Test);
     }
 
 
