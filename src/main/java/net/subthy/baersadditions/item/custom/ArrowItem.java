@@ -22,6 +22,6 @@ public class ArrowItem extends Item {
 
     public boolean isInfinite(ItemStack stack, ItemStack bow, net.minecraft.world.entity.player.Player player) {
         int enchant = net.minecraft.world.item.enchantment.EnchantmentHelper.getItemEnchantmentLevel(net.minecraft.world.item.enchantment.Enchantments.INFINITY_ARROWS, bow);
-        return enchant <= 0 ? false : this.getClass() == net.minecraft.world.item.ArrowItem.class;
+        return enchant <= 0 ? false : this.getClass() == ArrowItem.class;
     }
 }
