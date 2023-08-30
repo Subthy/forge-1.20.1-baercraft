@@ -15,7 +15,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.subthy.baersadditions.block.ModBlocks;
-import net.subthy.baersadditions.entity.ModEntities;
 import net.subthy.baersadditions.item.ModCreativeModeTabs;
 import net.subthy.baersadditions.item.ModItems;
 import net.subthy.baersadditions.sound.ModSounds;
@@ -36,7 +35,6 @@ public class BaersAdditions {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModSounds.register(modEventBus);
-        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
