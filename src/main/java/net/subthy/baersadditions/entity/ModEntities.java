@@ -12,7 +12,12 @@ import net.subthy.baersadditions.entity.custom.TestArrow;
 public class ModEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES =
             DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, BaersAdditions.MOD_ID);
-
+    public static final RegistryObject<EntityType<TestArrow>> DICE_PROJECTILE =
+            ENTITY_TYPES.register("test_arrow",
+                    () -> EntityType.Builder.<TestArrow>of(TestArrow::new, MobCategory.MISC)
+                            .sized(0.5f, 0.5f)
+                            .updateInterval(20)
+                            .build("test_arrow"));
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
