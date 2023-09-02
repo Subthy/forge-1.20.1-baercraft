@@ -44,7 +44,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.Lavender);
         simpleItem(ModItems.Arrow_Test);
 
-        complexBlock(ModBlocks.Plushie_Allay.get());
+
     }
 
     private ItemModelBuilder complexBlock(Block block) {

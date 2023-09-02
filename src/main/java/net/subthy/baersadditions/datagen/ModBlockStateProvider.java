@@ -27,8 +27,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.Lavender.get(),
                 models().cross(blockTexture(ModBlocks.Lavender.get()).getPath(), blockTexture(ModBlocks.Lavender.get())).renderType("cutout"));
 
-        horizontalBlock(ModBlocks.Plushie_Allay.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/plushie_allay")));
+
     }
     private void blockItem(RegistryObject<Block> blockRegistryObject, String appendix) {
         simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("baersadditions:block/" + ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath() + appendix));
