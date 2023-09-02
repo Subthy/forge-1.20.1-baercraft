@@ -1,16 +1,29 @@
 package net.subthy.baersadditions.block.custom;
 
+import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
 import org.jetbrains.annotations.Nullable;
 
 public class Plushie_Allay extends HorizontalDirectionalBlock {
     public Plushie_Allay(Properties pProperties) {
         super(pProperties);
     }
+
+    public static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 6, 16);
+
+    @Override
+    public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
+        return SHAPE;
+    }
+
+
 
     @Nullable
     @Override

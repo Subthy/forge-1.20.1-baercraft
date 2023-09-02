@@ -45,7 +45,7 @@ public class ModCreativeModeTabs {
                     .build());
 
     public static final RegistryObject<CreativeModeTab> BAERSADDITIONS_PLUSHIE_TAB = CEATIVE_MOD_TABS.register("baersadditons_plushie_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.Platinum_Ingot.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.Plushie_Allay.get()))
                     .title(Component.translatable("creativetab.baersadditions_plushie_tab"))
                     .displayItems((pParamiters, pOutput) -> {
                         pOutput.accept(ModBlocks.Plushie_Allay.get());

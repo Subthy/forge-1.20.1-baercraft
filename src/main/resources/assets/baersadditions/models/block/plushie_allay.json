@@ -1,8 +1,9 @@
 {
 	"credit": "Made by Nog's Menagerie",
 	"texture_size": [32, 32],
+	"render_type": "minecraft:cutout",
 	"textures": {
-		"0": "baersadditions:block/plushie_allay_texture",
+		"0": "baersadditions:block/plushie_allay",
 		"particle": "baersadditions:block/plushie_allay"
 	},
 	"elements": [

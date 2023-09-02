@@ -41,7 +41,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> Plushie_Allay = registerBlock("plushie_allay",
             () -> new Plushie_Allay(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
-                    .noCollission()));
+                    .noOcclusion()));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
