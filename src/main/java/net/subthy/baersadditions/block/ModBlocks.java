@@ -6,12 +6,12 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.subthy.baersadditions.BaersAdditions;
+import net.subthy.baersadditions.block.custom.Plushie_Allay;
 import net.subthy.baersadditions.item.ModItems;
 
 import java.util.function.Supplier;
@@ -39,7 +39,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> Potted_Lavender = BLOCKS.register("potted_lavender",
             () -> new FlowerPotBlock((() -> (FlowerPotBlock) Blocks.FLOWER_POT), Lavender, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM)));
 
-
+    public static final RegistryObject<Block> Plushie_Allay = registerBlock("plushie_allay",
+            () -> new Plushie_Allay(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noCollission()));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

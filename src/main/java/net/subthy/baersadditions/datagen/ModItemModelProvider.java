@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.subthy.baersadditions.BaersAdditions;
 import net.subthy.baersadditions.block.ModBlocks;
@@ -42,8 +43,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.Rainbow_Road);
         simpleBlockItem(ModBlocks.Lavender);
         simpleItem(ModItems.Arrow_Test);
+
+        complexBlock(ModBlocks.Plushie_Allay.get());
     }
 
+    private ItemModelBuilder complexBlock(Block block) {
+        return withExistingParent(ForgeRegistries.BLOCKS.getKey(block).getPath(), new ResourceLocation(BaersAdditions.MOD_ID,
+                "block/" + ForgeRegistries.BLOCKS.getKey(block).getPath()));
+    }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),

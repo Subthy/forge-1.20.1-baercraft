@@ -34,5 +34,8 @@
   "tooltip.baersadditions.oxygen_bottle.tooltip": "§oOxygen concentrate has only been found in one place. Your best chance of getting this concentrate is by defeating sea serpents.This can be quite difficult to obtain considering sea serpents only appear in deep oceans, including the deep frozen ocean, deep cold ocean, and so on.",
   "tooltip.baersadditions.oxytocin_bottle.tooltip": "§oOxytocin is a hormone that our bodies produce. It's also known as the love hormone. It can help us bond with loved ones. Oxytocin concentrate currently has no recipe, but it can, however, be found in places like Foundries, Nether cities, and more.",
 
-  "creativetab.baersadditions_tab": "Baer's Additions"
+  "creativetab.baersadditions_tab": "Baer's Additions",
+  "creativetab.baersadditions_plushie_tab": "Baer's Plushies",
+
+  "block.baersadditions.plushie_allay": "Allay Plushie"
 }
