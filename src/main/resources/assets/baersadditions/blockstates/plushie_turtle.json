@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "baersadditions:block/plushie_turtle",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "baersadditions:block/plushie_turtle"
+    },
+    "facing=south": {
+      "model": "baersadditions:block/plushie_turtle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "baersadditions:block/plushie_turtle",
+      "y": 270
+    }
+  }
+}
