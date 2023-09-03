@@ -49,6 +49,15 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.baersadditions_plushie_tab"))
                     .displayItems((pParamiters, pOutput) -> {
                         pOutput.accept(ModBlocks.Plushie_Allay.get());
+                        pOutput.accept(ModBlocks.Plushie_Chicken.get());
+                        pOutput.accept(ModBlocks.Plushie_Axolotl.get());
+                        pOutput.accept(ModBlocks.Plushie_Bee.get());
+                        pOutput.accept(ModBlocks.Plushie_Cow.get());
+                        pOutput.accept(ModBlocks.Plushie_Turtle.get());
+                        pOutput.accept(ModBlocks.Plushie_Sheep.get());
+                        pOutput.accept(ModBlocks.Plushie_Pig.get());
+                        pOutput.accept(ModBlocks.Plushie_Parrot.get());
+                        pOutput.accept(ModBlocks.Plushie_Fox.get());
                     })
                     .build());
 

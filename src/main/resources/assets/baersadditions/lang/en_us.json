@@ -37,5 +37,14 @@
   "creativetab.baersadditions_tab": "Baer's Additions",
   "creativetab.baersadditions_plushie_tab": "Baer's Plushies",
 
-  "block.baersadditions.plushie_allay": "Allay Plushie"
+  "block.baersadditions.plushie_allay": "Allay Plushie",
+  "block.baersadditions.plushie_axolotl": "Axolotl Plushie",
+  "block.baersadditions.plushie_bee": "Bee Plushie",
+  "block.baersadditions.plushie_chicken": "Chicken Plushie",
+  "block.baersadditions.plushie_cow": "Cow Plushie",
+  "block.baersadditions.plushie_fox": "Fox Plushie",
+  "block.baersadditions.plushie_Parrot": "Parrot Plushie",
+  "block.baersadditions.plushie_Pig": "Pig Plushie",
+  "block.baersadditions.plushie_sheep": "Sheep Plushie",
+  "block.baersadditions.plushie_turtle": "Axolotl Turtle"
 }

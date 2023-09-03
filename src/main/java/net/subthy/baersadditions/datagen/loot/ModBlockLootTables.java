@@ -28,6 +28,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.Potted_Lavender.get(),
                 createPotFlowerItemTable(ModBlocks.Potted_Lavender.get()));
         this.dropSelf(ModBlocks.Plushie_Allay.get());
+        this.dropSelf(ModBlocks.Plushie_Axolotl.get());
+        this.dropSelf(ModBlocks.Plushie_Bee.get());
+        this.dropSelf(ModBlocks.Plushie_Chicken.get());
+        this.dropSelf(ModBlocks.Plushie_Cow.get());
+        this.dropSelf(ModBlocks.Plushie_Fox.get());
+        this.dropSelf(ModBlocks.Plushie_Parrot.get());
+        this.dropSelf(ModBlocks.Plushie_Pig.get());
+        this.dropSelf(ModBlocks.Plushie_Sheep.get());
+        this.dropSelf(ModBlocks.Plushie_Turtle.get());
     }
     @Override
     protected Iterable<Block> getKnownBlocks() {
