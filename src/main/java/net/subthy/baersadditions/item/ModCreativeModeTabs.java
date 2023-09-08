@@ -58,6 +58,26 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.Plushie_Pig.get());
                         pOutput.accept(ModBlocks.Plushie_Parrot.get());
                         pOutput.accept(ModBlocks.Plushie_Fox.get());
+                        pOutput.accept(ModBlocks.Plushie_Camel.get());
+                        pOutput.accept(ModBlocks.Plushie_Cat.get());
+                        pOutput.accept(ModBlocks.Plushie_Creeper.get());
+                        pOutput.accept(ModBlocks.Plushie_Dolphin.get());
+                        pOutput.accept(ModBlocks.Plushie_Donkey.get());
+                        pOutput.accept(ModBlocks.Plushie_Ender_Dragon.get());
+                        pOutput.accept(ModBlocks.Plushie_Enderman.get());
+                        pOutput.accept(ModBlocks.Plushie_Frog.get());
+                        pOutput.accept(ModBlocks.Plushie_Ghast.get());
+                        pOutput.accept(ModBlocks.Plushie_Goat.get());
+                        pOutput.accept(ModBlocks.Plushie_Horse.get());
+                        pOutput.accept(ModBlocks.Plushie_Mooshroom.get());
+                        pOutput.accept(ModBlocks.Plushie_Panda.get());
+                        pOutput.accept(ModBlocks.Plushie_Polar_Bear.get());
+                        pOutput.accept(ModBlocks.Plushie_Pufferfish.get());
+                        pOutput.accept(ModBlocks.Plushie_Rabbit.get());
+                        pOutput.accept(ModBlocks.Plushie_Skeleton_Horse.get());
+                        pOutput.accept(ModBlocks.Plushie_Sniffer.get());
+                        pOutput.accept(ModBlocks.Plushie_Squid.get());
+                        pOutput.accept(ModBlocks.Plushie_Wolf.get());
                     })
                     .build());
 

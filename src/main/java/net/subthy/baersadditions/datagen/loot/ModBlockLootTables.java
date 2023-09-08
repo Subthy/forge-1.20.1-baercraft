@@ -37,6 +37,26 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.Plushie_Pig.get());
         this.dropSelf(ModBlocks.Plushie_Sheep.get());
         this.dropSelf(ModBlocks.Plushie_Turtle.get());
+        this.dropSelf(ModBlocks.Plushie_Camel.get());
+        this.dropSelf(ModBlocks.Plushie_Cat.get());
+        this.dropSelf(ModBlocks.Plushie_Creeper.get());
+        this.dropSelf(ModBlocks.Plushie_Dolphin.get());
+        this.dropSelf(ModBlocks.Plushie_Donkey.get());
+        this.dropSelf(ModBlocks.Plushie_Ender_Dragon.get());
+        this.dropSelf(ModBlocks.Plushie_Enderman.get());
+        this.dropSelf(ModBlocks.Plushie_Frog.get());
+        this.dropSelf(ModBlocks.Plushie_Ghast.get());
+        this.dropSelf(ModBlocks.Plushie_Goat.get());
+        this.dropSelf(ModBlocks.Plushie_Horse.get());
+        this.dropSelf(ModBlocks.Plushie_Mooshroom.get());
+        this.dropSelf(ModBlocks.Plushie_Panda.get());
+        this.dropSelf(ModBlocks.Plushie_Polar_Bear.get());
+        this.dropSelf(ModBlocks.Plushie_Pufferfish.get());
+        this.dropSelf(ModBlocks.Plushie_Rabbit.get());
+        this.dropSelf(ModBlocks.Plushie_Skeleton_Horse.get());
+        this.dropSelf(ModBlocks.Plushie_Sniffer.get());
+        this.dropSelf(ModBlocks.Plushie_Squid.get());
+        this.dropSelf(ModBlocks.Plushie_Wolf.get());
     }
     @Override
     protected Iterable<Block> getKnownBlocks() {

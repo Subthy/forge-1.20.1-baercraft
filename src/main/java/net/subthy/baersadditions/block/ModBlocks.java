@@ -78,6 +78,69 @@ public class ModBlocks {
     public static final RegistryObject<Block> Plushie_Turtle = registerBlock("plushie_turtle",
             () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .noOcclusion()));
+
+    public static final RegistryObject<Block> Plushie_Camel = registerBlock("plushie_camel",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Cat = registerBlock("plushie_cat",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+
+    public static final RegistryObject<Block> Plushie_Creeper = registerBlock("plushie_creeper",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+
+    public static final RegistryObject<Block> Plushie_Dolphin = registerBlock("plushie_dolphin",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Ender_Dragon = registerBlock("plushie_enderdragon",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Enderman = registerBlock("plushie_enderman",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Frog = registerBlock("plushie_frog",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Ghast = registerBlock("plushie_ghast",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Goat = registerBlock("plushie_goat",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Horse = registerBlock("plushie_horse",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Mooshroom = registerBlock("plushie_mooshroom",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Panda = registerBlock("plushie_panda",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Polar_Bear = registerBlock("plushie_polar_bear",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Pufferfish = registerBlock("plushie_pufferfish",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Rabbit = registerBlock("plushie_rabbit",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Skeleton_Horse = registerBlock("plushie_skeleton_horse",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Sniffer = registerBlock("plushie_sniffer",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Squid = registerBlock("plushie_squid",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Wolf = registerBlock("plushie_wolf",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
+    public static final RegistryObject<Block> Plushie_Donkey = registerBlock("plushie_donkey",
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+                    .noOcclusion()));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

@@ -54,6 +54,26 @@ public class ModItemModelProvider extends ItemModelProvider {
         complexBlock(ModBlocks.Plushie_Pig.get());
         complexBlock(ModBlocks.Plushie_Sheep.get());
         complexBlock(ModBlocks.Plushie_Turtle.get());
+        complexBlock(ModBlocks.Plushie_Camel.get());
+        complexBlock(ModBlocks.Plushie_Cat.get());
+        complexBlock(ModBlocks.Plushie_Creeper.get());
+        complexBlock(ModBlocks.Plushie_Dolphin.get());
+        complexBlock(ModBlocks.Plushie_Donkey.get());
+        complexBlock(ModBlocks.Plushie_Ender_Dragon.get());
+        complexBlock(ModBlocks.Plushie_Enderman.get());
+        complexBlock(ModBlocks.Plushie_Frog.get());
+        complexBlock(ModBlocks.Plushie_Ghast.get());
+        complexBlock(ModBlocks.Plushie_Goat.get());
+        complexBlock(ModBlocks.Plushie_Horse.get());
+        complexBlock(ModBlocks.Plushie_Mooshroom.get());
+        complexBlock(ModBlocks.Plushie_Panda.get());
+        complexBlock(ModBlocks.Plushie_Polar_Bear.get());
+        complexBlock(ModBlocks.Plushie_Pufferfish.get());
+        complexBlock(ModBlocks.Plushie_Rabbit.get());
+        complexBlock(ModBlocks.Plushie_Skeleton_Horse.get());
+        complexBlock(ModBlocks.Plushie_Sniffer.get());
+        complexBlock(ModBlocks.Plushie_Squid.get());
+        complexBlock(ModBlocks.Plushie_Wolf.get());
 
 
     }
