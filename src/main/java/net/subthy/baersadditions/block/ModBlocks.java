@@ -40,43 +40,43 @@ public class ModBlocks {
             () -> new FlowerPotBlock((() -> (FlowerPotBlock) Blocks.FLOWER_POT), Lavender, BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM)));
 
     public static final RegistryObject<Block> Plushie_Allay = registerBlock("plushie_allay",
-            () -> new Plushie_Allay(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .noOcclusion()));
 
     public static final RegistryObject<Block> Plushie_Axolotl = registerBlock("plushie_axolotl",
-            () -> new Plushie_Axolotl(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .noOcclusion()));
 
     public static final RegistryObject<Block> Plushie_Bee = registerBlock("plushie_bee",
-            () -> new Plushie_Bee(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .noOcclusion()));
 
     public static final RegistryObject<Block> Plushie_Chicken = registerBlock("plushie_chicken",
-            () -> new Plushie_Chicken(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .noOcclusion()));
 
     public static final RegistryObject<Block> Plushie_Cow = registerBlock("plushie_cow",
-            () -> new Plushie_Cow(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .noOcclusion()));
 
     public static final RegistryObject<Block> Plushie_Fox = registerBlock("plushie_fox",
-            () -> new Plushie_Fox(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .noOcclusion()));
 
     public static final RegistryObject<Block> Plushie_Parrot = registerBlock("plushie_parrot",
-            () -> new Plushie_Parrot(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .noOcclusion()));
 
     public static final RegistryObject<Block> Plushie_Pig = registerBlock("plushie_pig",
-            () -> new Plushie_Pig(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .noOcclusion()));
 
     public static final RegistryObject<Block> Plushie_Sheep = registerBlock("plushie_sheep",
-            () -> new Plushie_Sheep(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .noOcclusion()));
 
     public static final RegistryObject<Block> Plushie_Turtle = registerBlock("plushie_turtle",
-            () -> new Plushie_Turtle(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
+            () -> new Plushie(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL)
                     .noOcclusion()));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

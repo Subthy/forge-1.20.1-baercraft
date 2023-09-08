@@ -1,4 +1,4 @@
-// 1.20.1	2023-07-17T20:44:24.2418254	Item Models: baersadditions
+// 1.20.1	2023-09-03T18:00:15.8127075	Item Models: baersadditions
 1db42ab23fc1e830fa13a5883699de5e26fd8eff assets/baersadditions/models/item/arrow_test.json
 cafe7624271c409ea7d92bafab643d1953f72f27 assets/baersadditions/models/item/baercraft_quests.json
 76a41731f3eedf000501b01810a88d539efb723f assets/baersadditions/models/item/baercraft_tome.json
@@ -14,6 +14,16 @@ f2bfe9ed9901ea096571281970b8a594de7cccfe assets/baersadditions/models/item/oxyto
 92889daaa85dfff49ae7d825887d5f6a6881c3a2 assets/baersadditions/models/item/peoples_republic_tome.json
 24f8f722706e85c6a8ce234f51bd1cd3de51563b assets/baersadditions/models/item/platinum_ingot.json
 b8678df6baaac50bed6766bc9681c894db7862f2 assets/baersadditions/models/item/platinum_nugget.json
+10a568944e0d60653bd4adaeb7742f0318bec276 assets/baersadditions/models/item/plushie_allay.json
+d90d82aa133bb5bb0d6fead10a1dd3e9bd64adb4 assets/baersadditions/models/item/plushie_axolotl.json
+a75b8e07bccc4a4c46747c4835692985ec45c799 assets/baersadditions/models/item/plushie_bee.json
+3e2cd81bd8e3bb78a31c975c014ab13804e2f364 assets/baersadditions/models/item/plushie_chicken.json
+c9b7d6f3d9038b87d4ba7d73fcccb8f166872f12 assets/baersadditions/models/item/plushie_cow.json
+0631ed8a0d1bdfaa217e0baf516bc58fec04b227 assets/baersadditions/models/item/plushie_fox.json
+d2ef3b57edfe7f7dcad0db180e8e02511eeda82e assets/baersadditions/models/item/plushie_parrot.json
+fe9beffc1c008041f754adc30f74b1cded4b7bd9 assets/baersadditions/models/item/plushie_pig.json
+2bcd3c4a2c4687be4cfde397b633a3345ae97709 assets/baersadditions/models/item/plushie_sheep.json
+aac508a90f77e38e863c09bb0dc22bf2d6ee1ab3 assets/baersadditions/models/item/plushie_turtle.json
 107ce89852be9e9db196773bc262c72e3813b9ef assets/baersadditions/models/item/rainbow_road.json
 6292738c240f08b9f4cd24e90c62c89e45678e80 assets/baersadditions/models/item/raw_platinum.json
 c807565b4d2b042d19d8bd547d83cfb403d9cf91 assets/baersadditions/models/item/vial_bottle.json
