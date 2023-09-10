@@ -6,5 +6,13 @@
         "stream": true
       }
     ]
+  },
+  "plushie_sound": {
+    "sounds": [
+      {
+        "name": "baersadditions:plushie_sound",
+        "stream": true
+      }
+    ]
   }
 }
