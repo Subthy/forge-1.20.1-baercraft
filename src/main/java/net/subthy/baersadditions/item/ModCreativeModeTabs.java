@@ -78,6 +78,16 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.Plushie_Sniffer.get());
                         pOutput.accept(ModBlocks.Plushie_Squid.get());
                         pOutput.accept(ModBlocks.Plushie_Wolf.get());
+                        pOutput.accept(ModBlocks.Plushie_Bat.get());
+                        pOutput.accept(ModBlocks.Plushie_Phantom.get());
+                        pOutput.accept(ModBlocks.Plushie_Skeleton.get());
+                        pOutput.accept(ModBlocks.Plushie_Spider.get());
+                        pOutput.accept(ModBlocks.Plushie_Warden.get());
+                        pOutput.accept(ModBlocks.Plushie_Witch.get());
+                        pOutput.accept(ModBlocks.Plushie_Wither.get());
+                        pOutput.accept(ModBlocks.Plushie_Wither_Skeleton.get());
+                        pOutput.accept(ModBlocks.Plushie_Zoglin.get());
+                        pOutput.accept(ModBlocks.Plushie_Zombie.get());
                     })
                     .build());
 

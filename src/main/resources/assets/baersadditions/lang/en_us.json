@@ -66,5 +66,16 @@
   "block.baersadditions.plushie_sniffer": "Sniffer Plushie",
   "block.baersadditions.plushie_squid": "Squid Plushie",
   "block.baersadditions.plushie_turtle": "Turtle Plushie",
-  "block.baersadditions.plushie_wolf": "Wolf Plushie"
+  "block.baersadditions.plushie_wolf": "Wolf Plushie",
+  "block.baersadditions.plushie_bat": "Bat Plushie",
+  "block.baersadditions.plushie_phantom": "Phantom Plushie",
+  "block.baersadditions.plushie_skeleton": "Skeleton Plushie",
+  "block.baersadditions.plushie_spider": "spider Plushie",
+  "block.baersadditions.plushie_warden": "Warden Plushie",
+  "block.baersadditions.plushie_witch": "Witch Plushie",
+  "block.baersadditions.plushie_wither": "Wither Plushie",
+  "block.baersadditions.plushie_wither_skeleton": "Wither Skeleton Plushie",
+  "block.baersadditions.plushie_zoglin": "Zoglin Plushie",
+  "block.baersadditions.plushie_zombie": "Zombie Plushie"
+
 }

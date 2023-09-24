@@ -57,6 +57,16 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.Plushie_Sniffer.get());
         this.dropSelf(ModBlocks.Plushie_Squid.get());
         this.dropSelf(ModBlocks.Plushie_Wolf.get());
+        this.dropSelf(ModBlocks.Plushie_Bat.get());
+        this.dropSelf(ModBlocks.Plushie_Phantom.get());
+        this.dropSelf(ModBlocks.Plushie_Skeleton.get());
+        this.dropSelf(ModBlocks.Plushie_Spider.get());
+        this.dropSelf(ModBlocks.Plushie_Warden.get());
+        this.dropSelf(ModBlocks.Plushie_Witch.get());
+        this.dropSelf(ModBlocks.Plushie_Wither.get());
+        this.dropSelf(ModBlocks.Plushie_Wither_Skeleton.get());
+        this.dropSelf(ModBlocks.Plushie_Zoglin.get());
+        this.dropSelf(ModBlocks.Plushie_Zombie.get());
     }
     @Override
     protected Iterable<Block> getKnownBlocks() {
