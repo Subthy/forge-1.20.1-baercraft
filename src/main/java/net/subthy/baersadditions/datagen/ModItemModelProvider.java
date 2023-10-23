@@ -44,6 +44,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.Lavender);
         simpleItem(ModItems.Arrow_Test);
 
+
         complexBlock(ModBlocks.Plushie_Allay.get());
         complexBlock(ModBlocks.Plushie_Axolotl.get());
         complexBlock(ModBlocks.Plushie_Bee.get());

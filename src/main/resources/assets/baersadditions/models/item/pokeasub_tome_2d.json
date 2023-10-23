@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "baersadditions:item/pokeasub_tome_2d"
+  }
+}

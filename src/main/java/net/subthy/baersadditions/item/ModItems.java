@@ -39,6 +39,8 @@ public class ModItems {
     public static final RegistryObject<Item> BaerCraft_Tome = ITEMS.register("baercraft_tome",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PokeASub_Tome = ITEMS.register("pokeasub_tome",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> Trash_Panda_Craft_Tome = ITEMS.register("trash_panda_craft_tome",
             () -> new Item(new Item.Properties()));

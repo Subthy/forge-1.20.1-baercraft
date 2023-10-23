@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "baersadditions:item/pokeasub_tome_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "baersadditions:item/pokeasub_tome_2d"
+    },
+    "ground": {
+      "parent": "baersadditions:item/pokeasub_tome_2d"
+    },
+    "fixed": {
+      "parent": "baersadditions:item/pokeasub_tome_2d"
+    }
+  }
+}
