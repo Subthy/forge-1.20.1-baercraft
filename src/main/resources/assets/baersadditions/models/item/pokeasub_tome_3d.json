@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "baersadditions:item/pokeasub"
+		"0": "baersadditions:item/pokeasub_tome"
 	},
 	"elements": [
 		{
