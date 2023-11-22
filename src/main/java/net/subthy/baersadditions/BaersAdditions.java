@@ -16,6 +16,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.subthy.baersadditions.block.ModBlocks;
 import net.subthy.baersadditions.item.ModCreativeModeTabs;
+import net.subthy.baersadditions.item.ModItemProperties;
 import net.subthy.baersadditions.item.ModItems;
 import net.subthy.baersadditions.sound.ModSounds;
 import org.slf4j.Logger;
@@ -67,6 +68,9 @@ public class BaersAdditions {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
 
+            event.enqueueWork(() -> {
+                ModItemProperties.addCustomItemProperties();
+            });
+            }
         }
     }
-}
