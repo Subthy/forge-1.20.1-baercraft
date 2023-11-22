@@ -42,6 +42,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.Lavender.get());
                         pOutput.accept(ModBlocks.Deepslate_Platinum_Ore.get());
                         pOutput.accept(ModBlocks.Raw_Platinum_Block.get());
+
+                        pOutput.accept(ModItems.Coin.get());
                     })
                     .build());
 

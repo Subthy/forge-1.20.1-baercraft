@@ -45,6 +45,9 @@ public class ModItems {
     public static final RegistryObject<Item> Trash_Panda_Craft_Tome = ITEMS.register("trash_panda_craft_tome",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> Coin = ITEMS.register("coin",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> Blood_Concentrate = ITEMS.register("blood_concentrate",
             () -> new BloodConcentrate(new Item.Properties().food(ModFoods.Blood_Concentrate)));
 
