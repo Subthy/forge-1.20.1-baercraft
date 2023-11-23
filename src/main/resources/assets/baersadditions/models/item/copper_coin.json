@@ -1,0 +1,26 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "baersadditions:items/copper_coin_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "baersadditions:count": 1
+      },
+      "model": "baersadditions:item/copper_coin_0"
+    },
+    {
+      "predicate": {
+        "baersadditions:count": 16
+      },
+      "model": "baersadditions:item/copper_coin_1"
+    },
+    {
+      "predicate": {
+        "baersadditions:count": 32
+      },
+      "model": "baersadditions:item/copper_coin_2"
+    }
+  ]
+}

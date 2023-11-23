@@ -36,6 +36,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.Raw_Platinum.get());
                         pOutput.accept(ModItems.Rainbow_Road.get());
                         pOutput.accept(ModItems.PokeASub_Tome.get());
+                        pOutput.accept(ModItems.Copper_Coin.get());
+                        pOutput.accept(ModItems.Iron_Coin.get());
+                        pOutput.accept(ModItems.Gold_Coin.get());
+                        pOutput.accept(ModItems.Diamond_Coin.get());
+                        pOutput.accept(ModItems.Netherite_Coin.get());
 
                         pOutput.accept(ModBlocks.Platinum_Block.get());
                         pOutput.accept(ModBlocks.Platinum_Ore.get());
@@ -43,7 +48,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.Deepslate_Platinum_Ore.get());
                         pOutput.accept(ModBlocks.Raw_Platinum_Block.get());
 
-                        pOutput.accept(ModItems.Coin.get());
+
                     })
                     .build());
 

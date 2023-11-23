@@ -1,0 +1,26 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "baersadditions:items/netherite_coin_0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "baersadditions:count": 1
+      },
+      "model": "baersadditions:item/netherite_coin_0"
+    },
+    {
+      "predicate": {
+        "baersadditions:count": 16
+      },
+      "model": "baersadditions:item/netherite_coin_1"
+    },
+    {
+      "predicate": {
+        "baersadditions:count": 32
+      },
+      "model": "baersadditions:item/netherite_coin_2"
+    }
+  ]
+}

@@ -29,6 +29,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
+
+        // Shaped
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.Platinum_Block.get())
                 .pattern("AAA")
                 .pattern("AAA")
@@ -46,11 +49,44 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.Iron_Coin.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.Copper_Coin.get())
+                .unlockedBy("has_copper_coin", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.Copper_Coin.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.Gold_Coin.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.Iron_Coin.get())
+                .unlockedBy("has_iron_coin", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.Iron_Coin.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.Diamond_Coin.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.Gold_Coin.get())
+                .unlockedBy("has_gold_coin", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.Gold_Coin.get()).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.Netherite_Coin.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ModItems.Diamond_Coin.get())
+                .unlockedBy("has_diamond_coin", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.Diamond_Coin.get()).build()))
+                .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Raw_Platinum.get(), 9)
                 .requires(ModBlocks.Raw_Platinum_Block.get())
                 .unlockedBy("has_raw_platinum", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.Raw_Platinum_Block.get()).build()))
                 .save(pWriter);
+
+        // Shapless
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Platinum_Ingot.get())
                 .requires(ModItems.Platinum_Nugget.get(),9)
@@ -66,6 +102,28 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.Platinum_Block.get())
                 .unlockedBy("has_platinum_block", inventoryTrigger(ItemPredicate.Builder.item().of(ModBlocks.Platinum_Block.get()).build()))
                 .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Copper_Coin.get(), 9)
+                .requires(ModItems.Iron_Coin.get())
+                .unlockedBy("has_iron_coin", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.Iron_Coin.get()).build()))
+                .save(pWriter, "copper_coins_from_iron_coins");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Iron_Coin.get(), 9)
+                .requires(ModItems.Gold_Coin.get())
+                .unlockedBy("has_gold_coin", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.Gold_Coin.get()).build()))
+                .save(pWriter, "iron_coins_from_gold_coins");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Gold_Coin.get(), 9)
+                .requires(ModItems.Diamond_Coin.get())
+                .unlockedBy("has_diamond_coin", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.Diamond_Coin.get()).build()))
+                .save(pWriter, "gold_coins_from_diamond_coins");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Diamond_Coin.get(), 9)
+                .requires(ModItems.Netherite_Coin.get())
+                .unlockedBy("has_netherite_coin", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.Netherite_Coin.get()).build()))
+                .save(pWriter, "diamond_coins_from_netherite_coins");
+
+        // Smelting
 
         oreSmelting(pWriter, Platinum_Smeltables, RecipeCategory.MISC, ModItems.Platinum_Ingot.get(), 0.25F, 200, "platinum");
         oreBlasting(pWriter, Platinum_Smeltables, RecipeCategory.MISC, ModItems.Platinum_Ingot.get(), 0.30F, 100, "platinum");

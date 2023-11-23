@@ -45,8 +45,6 @@ public class ModItems {
     public static final RegistryObject<Item> Trash_Panda_Craft_Tome = ITEMS.register("trash_panda_craft_tome",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> Coin = ITEMS.register("coin",
-            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> Blood_Concentrate = ITEMS.register("blood_concentrate",
             () -> new BloodConcentrate(new Item.Properties().food(ModFoods.Blood_Concentrate)));
@@ -79,9 +77,20 @@ public class ModItems {
     public static final RegistryObject<Item> Arrow_Test = ITEMS.register("arrow_test",
             () -> new ArrowItem(new Item.Properties()));
 
+    public static final RegistryObject<Item> Copper_Coin = ITEMS.register("copper_coin",
+            () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> Iron_Coin = ITEMS.register("iron_coin",
+            () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> Gold_Coin = ITEMS.register("gold_coin",
+            () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> Diamond_Coin = ITEMS.register("diamond_coin",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> Netherite_Coin = ITEMS.register("netherite_coin",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

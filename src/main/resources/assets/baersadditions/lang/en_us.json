@@ -16,6 +16,12 @@
   "item.baersadditions.experience_concentrate": "Experience Concentrate",
   "item.baersadditions.raw_platinum": "Raw Platinum",
 
+  "item.baersadditions.copper_coin": "Copper Coin",
+  "item.baersadditions.iron_coin": "Iron Coin",
+  "item.baersadditions.gold_coin": "Gold Coin",
+  "item.baersadditions.diamond_coin": "Diamond Coin",
+  "item.baersadditions.netherite_coin": "Netherite Coin",
+
   "block.baersadditions.platinum_block": "Platinum Block",
   "block.baersadditions.platinum_ore": "Platinum Ore",
   "block.baersadditions.raw_platinum_block": "Raw Platinum Block",
