@@ -45,48 +45,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.Arrow_Test);
 
 
-        complexBlock(ModBlocks.Plushie_Allay.get());
-        complexBlock(ModBlocks.Plushie_Axolotl.get());
-        complexBlock(ModBlocks.Plushie_Bee.get());
-        complexBlock(ModBlocks.Plushie_Chicken.get());
-        complexBlock(ModBlocks.Plushie_Cow.get());
-        complexBlock(ModBlocks.Plushie_Fox.get());
-        complexBlock(ModBlocks.Plushie_Parrot.get());
-        complexBlock(ModBlocks.Plushie_Pig.get());
-        complexBlock(ModBlocks.Plushie_Sheep.get());
-        complexBlock(ModBlocks.Plushie_Turtle.get());
-        complexBlock(ModBlocks.Plushie_Camel.get());
-        complexBlock(ModBlocks.Plushie_Cat.get());
-        complexBlock(ModBlocks.Plushie_Creeper.get());
-        complexBlock(ModBlocks.Plushie_Dolphin.get());
-        complexBlock(ModBlocks.Plushie_Donkey.get());
-        complexBlock(ModBlocks.Plushie_Ender_Dragon.get());
-        complexBlock(ModBlocks.Plushie_Enderman.get());
-        complexBlock(ModBlocks.Plushie_Frog.get());
-        complexBlock(ModBlocks.Plushie_Ghast.get());
-        complexBlock(ModBlocks.Plushie_Goat.get());
-        complexBlock(ModBlocks.Plushie_Horse.get());
-        complexBlock(ModBlocks.Plushie_Mooshroom.get());
-        complexBlock(ModBlocks.Plushie_Panda.get());
-        complexBlock(ModBlocks.Plushie_Polar_Bear.get());
-        complexBlock(ModBlocks.Plushie_Pufferfish.get());
-        complexBlock(ModBlocks.Plushie_Rabbit.get());
-        complexBlock(ModBlocks.Plushie_Skeleton_Horse.get());
-        complexBlock(ModBlocks.Plushie_Sniffer.get());
-        complexBlock(ModBlocks.Plushie_Squid.get());
-        complexBlock(ModBlocks.Plushie_Wolf.get());
-        complexBlock(ModBlocks.Plushie_Bat.get());
-        complexBlock(ModBlocks.Plushie_Phantom.get());
-        complexBlock(ModBlocks.Plushie_Skeleton.get());
-        complexBlock(ModBlocks.Plushie_Spider.get());
-        complexBlock(ModBlocks.Plushie_Warden.get());
-        complexBlock(ModBlocks.Plushie_Witch.get());
-        complexBlock(ModBlocks.Plushie_Wither.get());
-        complexBlock(ModBlocks.Plushie_Wither_Skeleton.get());
-        complexBlock(ModBlocks.Plushie_Zoglin.get());
-        complexBlock(ModBlocks.Plushie_Zombie.get());
-
-
     }
 
     private ItemModelBuilder complexBlock(Block block) {

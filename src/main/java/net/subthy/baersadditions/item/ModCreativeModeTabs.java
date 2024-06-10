@@ -52,53 +52,6 @@ public class ModCreativeModeTabs {
                     })
                     .build());
 
-    public static final RegistryObject<CreativeModeTab> BAERSADDITIONS_PLUSHIE_TAB = CEATIVE_MOD_TABS.register("baersadditons_plushie_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.Plushie_Allay.get()))
-                    .title(Component.translatable("creativetab.baersadditions_plushie_tab"))
-                    .displayItems((pParamiters, pOutput) -> {
-                        pOutput.accept(ModBlocks.Plushie_Allay.get());
-                        pOutput.accept(ModBlocks.Plushie_Chicken.get());
-                        pOutput.accept(ModBlocks.Plushie_Axolotl.get());
-                        pOutput.accept(ModBlocks.Plushie_Bee.get());
-                        pOutput.accept(ModBlocks.Plushie_Cow.get());
-                        pOutput.accept(ModBlocks.Plushie_Turtle.get());
-                        pOutput.accept(ModBlocks.Plushie_Sheep.get());
-                        pOutput.accept(ModBlocks.Plushie_Pig.get());
-                        pOutput.accept(ModBlocks.Plushie_Parrot.get());
-                        pOutput.accept(ModBlocks.Plushie_Fox.get());
-                        pOutput.accept(ModBlocks.Plushie_Camel.get());
-                        pOutput.accept(ModBlocks.Plushie_Cat.get());
-                        pOutput.accept(ModBlocks.Plushie_Creeper.get());
-                        pOutput.accept(ModBlocks.Plushie_Dolphin.get());
-                        pOutput.accept(ModBlocks.Plushie_Donkey.get());
-                        pOutput.accept(ModBlocks.Plushie_Ender_Dragon.get());
-                        pOutput.accept(ModBlocks.Plushie_Enderman.get());
-                        pOutput.accept(ModBlocks.Plushie_Frog.get());
-                        pOutput.accept(ModBlocks.Plushie_Ghast.get());
-                        pOutput.accept(ModBlocks.Plushie_Goat.get());
-                        pOutput.accept(ModBlocks.Plushie_Horse.get());
-                        pOutput.accept(ModBlocks.Plushie_Mooshroom.get());
-                        pOutput.accept(ModBlocks.Plushie_Panda.get());
-                        pOutput.accept(ModBlocks.Plushie_Polar_Bear.get());
-                        pOutput.accept(ModBlocks.Plushie_Pufferfish.get());
-                        pOutput.accept(ModBlocks.Plushie_Rabbit.get());
-                        pOutput.accept(ModBlocks.Plushie_Skeleton_Horse.get());
-                        pOutput.accept(ModBlocks.Plushie_Sniffer.get());
-                        pOutput.accept(ModBlocks.Plushie_Squid.get());
-                        pOutput.accept(ModBlocks.Plushie_Wolf.get());
-                        pOutput.accept(ModBlocks.Plushie_Bat.get());
-                        pOutput.accept(ModBlocks.Plushie_Phantom.get());
-                        pOutput.accept(ModBlocks.Plushie_Skeleton.get());
-                        pOutput.accept(ModBlocks.Plushie_Spider.get());
-                        pOutput.accept(ModBlocks.Plushie_Warden.get());
-                        pOutput.accept(ModBlocks.Plushie_Witch.get());
-                        pOutput.accept(ModBlocks.Plushie_Wither.get());
-                        pOutput.accept(ModBlocks.Plushie_Wither_Skeleton.get());
-                        pOutput.accept(ModBlocks.Plushie_Zoglin.get());
-                        pOutput.accept(ModBlocks.Plushie_Zombie.get());
-                    })
-                    .build());
-
     public static void register(IEventBus eventBus) {
         CEATIVE_MOD_TABS.register(eventBus);
     }

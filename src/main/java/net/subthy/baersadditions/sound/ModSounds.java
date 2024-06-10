@@ -13,7 +13,6 @@ public class ModSounds {
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, BaersAdditions.MOD_ID);
 
     public static final RegistryObject<SoundEvent> Rainbow_Road = registerSoundEvents("rainbow_road");
-    public static final RegistryObject<SoundEvent> Plushie_Sound = registerSoundEvents("plushie_sound");
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         ResourceLocation id = new ResourceLocation(BaersAdditions.MOD_ID, name);
